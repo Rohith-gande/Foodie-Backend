@@ -31,6 +31,6 @@ app.listen(PORT,()=>{
 })
 
 app.use('/',(req,res)=>{
-    res.send("<h1>Welcome to Home Page</h1>")
+    res.send("<h1>Welcome to Home Page")
 })
 
