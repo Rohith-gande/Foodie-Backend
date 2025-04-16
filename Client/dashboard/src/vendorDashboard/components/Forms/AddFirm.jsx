@@ -180,7 +180,7 @@ const AddFirm = () => {
     setLoading(true); 
 
    try {
-        const loginToken = localStorage.getItem('loginToken');
+        const loginToken = localStorage.getItem('token');
         if(!loginToken){
             console.error("User not authenticated");
         }
